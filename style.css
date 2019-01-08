@@ -1,0 +1,29 @@
+body{
+    background-color: #e2e6af;
+}
+.box{
+    margin-left: 45%;
+    margin-top: 5%;
+}
+.relativ{
+    position: relative;
+    background-color: black;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+#opacity{
+    filter:alpha(opacity=75);
+    opacity: 0.75;
+    -moz-opacity:0.75;
+}
+#opacity1{
+    filter:alpha(opacity=50);
+    opacity: 0.5;
+    -moz-opacity:0.5;
+}
+#opacity2{
+    filter:alpha(opacity=25);
+    opacity: 0.25;
+    -moz-opacity:0.25;
+}
